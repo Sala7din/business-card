@@ -1,0 +1,91 @@
+
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #D3D3D3;
+    color: #2b2839;
+    box-shadow: 10px 5px 5px #BA181B;
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+
+.border-black {
+    border: 6px solid #161A1D;
+    border-radius: 4px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 1px solid #161A1D; 
+}
+
+}
+h4 :link {
+    text-decoration: none;
+    
+}
+h4 :visited {
+  text-decoration: none;
+}
+
+h4 :hover {
+    color: #BA181B;
+}
+    
+h4 :active {
+  color: blue;   
+}
+    
+/* [1] The container */
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
